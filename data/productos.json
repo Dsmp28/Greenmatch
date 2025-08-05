@@ -6,5 +6,213 @@
         "producto": "Cepillo de bambú",
         "beneficio": "Reduce el uso de plásticos en tu rutina diaria.",
         "frase": "Cada cepillada cuenta."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Cuidado personal",
+        "compromiso": "A veces",
+        "producto": "Shampoo sólido",
+        "beneficio": "Sin plástico y con ingredientes naturales.",
+        "frase": "Tu cabello también ama al planeta."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Cuidado personal",
+        "compromiso": "Siempre",
+        "producto": "Desodorante ecológico",
+        "beneficio": "Fórmula vegana y sin residuos químicos.",
+        "frase": "Tu piel merece conciencia."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Cocina ecológica",
+        "compromiso": "Nunca",
+        "producto": "Tote bag reutilizable",
+        "beneficio": "Ideal para reemplazar bolsas plásticas al hacer compras.",
+        "frase": "Cada hábito cuenta. Empezá por uno."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Cocina ecológica",
+        "compromiso": "A veces",
+        "producto": "Envases de silicona",
+        "beneficio": "Alternativa reutilizable al film plástico.",
+        "frase": "Cuidá lo que comés… y cómo lo guardás."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Cocina ecológica",
+        "compromiso": "Siempre",
+        "producto": "Filtro de agua de carbón",
+        "beneficio": "Purifica sin necesidad de botellas plásticas.",
+        "frase": "Tu cocina también puede respirar verde."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Ahorro de energía",
+        "compromiso": "Nunca",
+        "producto": "Luz LED portátil",
+        "beneficio": "Consumo eficiente y diseño compacto.",
+        "frase": "Iluminá con intención."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Ahorro de energía",
+        "compromiso": "A veces",
+        "producto": "Bombilla LED inteligente",
+        "beneficio": "Programable y ahorradora.",
+        "frase": "Pequeños cambios, gran ahorro."
+    },
+    {
+        "lugar": "Ciudad",
+        "valor": "Ahorro de energía",
+        "compromiso": "Siempre",
+        "producto": "Temporizador de enchufes",
+        "beneficio": "Controla tu consumo sin esfuerzo.",
+        "frase": "La energía que no usás… también cuenta."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Cuidado personal",
+        "compromiso": "Nunca",
+        "producto": "Jabón artesanal",
+        "beneficio": "Hecho a mano con ingredientes naturales.",
+        "frase": "Volvé a lo esencial."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Cuidado personal",
+        "compromiso": "A veces",
+        "producto": "Toallas desmaquillantes reutilizables",
+        "beneficio": "Reemplazan miles de descartables.",
+        "frase": "Tu rostro también puede cuidar el planeta."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Cuidado personal",
+        "compromiso": "Siempre",
+        "producto": "Kit de higiene sustentable",
+        "beneficio": "Incluye cepillo, shampoo y desodorante sin plástico.",
+        "frase": "Sostenibilidad en cada paso."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Cocina ecológica",
+        "compromiso": "Nunca",
+        "producto": "Cubiertos de bambú",
+        "beneficio": "Reutilizables y ligeros para cualquier ocasión.",
+        "frase": "Cociná con conciencia."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Cocina ecológica",
+        "compromiso": "A veces",
+        "producto": "Filtro de agua por gravedad",
+        "beneficio": "Filtra sin electricidad, ideal para áreas rurales.",
+        "frase": "Cuidar el agua es cuidar la vida."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Cocina ecológica",
+        "compromiso": "Siempre",
+        "producto": "Compostera doméstica",
+        "beneficio": "Convierte residuos orgánicos en abono natural.",
+        "frase": "Tus desechos pueden alimentar la tierra."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Ahorro de energía",
+        "compromiso": "Nunca",
+        "producto": "Lámpara solar básica",
+        "beneficio": "Se carga con el sol, ilumina al anochecer.",
+        "frase": "Aprovechá la energía natural."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Ahorro de energía",
+        "compromiso": "A veces",
+        "producto": "Panel solar portátil",
+        "beneficio": "Carga dispositivos sin red eléctrica.",
+        "frase": "Energía limpia donde la necesites."
+    },
+    {
+        "lugar": "Campo",
+        "valor": "Ahorro de energía",
+        "compromiso": "Siempre",
+        "producto": "Sistema de energía solar autónomo",
+        "beneficio": "Para casas o huertas sostenibles.",
+        "frase": "El sol es tu mejor aliado."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Cuidado personal",
+        "compromiso": "Nunca",
+        "producto": "Protector solar biodegradable",
+        "beneficio": "Seguro para la piel y para los corales.",
+        "frase": "Cuidá tu piel sin dañar el mar."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Cuidado personal",
+        "compromiso": "A veces",
+        "producto": "Cepillo de bambú compacto",
+        "beneficio": "Ideal para viajes o kits personales.",
+        "frase": "Sostenibilidad que va con vos."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Cuidado personal",
+        "compromiso": "Siempre",
+        "producto": "Kit de playa ecológico",
+        "beneficio": "Incluye protector, jabón y toalla de fibras naturales.",
+        "frase": "Disfrutá la arena sin dejar huella."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Cocina ecológica",
+        "compromiso": "Nunca",
+        "producto": "Set de cubiertos de bambú",
+        "beneficio": "Evitá descartables en tus picnics.",
+        "frase": "La playa limpia empieza por tu mochila."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Cocina ecológica",
+        "compromiso": "A veces",
+        "producto": "Botella de acero",
+        "beneficio": "Mantiene la temperatura por horas.",
+        "frase": "Cada sorbo cuenta."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Cocina ecológica",
+        "compromiso": "Siempre",
+        "producto": "Kit de picnic sustentable",
+        "beneficio": "Incluye platos, cubiertos y servilletas reutilizables.",
+        "frase": "Cada comida puede ser un acto consciente."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Ahorro de energía",
+        "compromiso": "Nunca",
+        "producto": "Linterna solar",
+        "beneficio": "Cargá de día, usá de noche.",
+        "frase": "Brillá con energía limpia."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Ahorro de energía",
+        "compromiso": "A veces",
+        "producto": "Powerbank solar",
+        "beneficio": "Cargá tu teléfono con energía del sol.",
+        "frase": "La batería verde que siempre necesitaste."
+    },
+    {
+        "lugar": "Playa",
+        "valor": "Ahorro de energía",
+        "compromiso": "Siempre",
+        "producto": "Mini estación solar portátil",
+        "beneficio": "Ideal para camping o trabajo remoto.",
+        "frase": "Conectado con la naturaleza, sin enchufes."
     }
 ]
