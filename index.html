@@ -41,7 +41,8 @@
                     </select>
                 </div>
                 
-                <div class="comproniso">               <label for="compromiso">¿Qué tan comprometido/a estás con el consumo sostenible?</label>
+                <div class="comproniso">
+                    <label for="compromiso">¿Qué tan comprometido/a estás con el consumo sostenible?</label>
                 <select id="compromiso" name="compromiso" required>
                     <option value="">Selecciona...</option>
                     <option value="Nunca">Nunca he comprado algo ecológico</option>
@@ -51,27 +52,28 @@
                 </div>
 
                 <div class="button">
-                    <button type="submit">Descubrir mi match</button>
+                    <button type="submit" id="btnMatch">Descubrir mi match</button>
                 </div>
             </form>
         </section>
 
         <!-- Resultado -->
-        <section id="resultado" style="display:none;">
+        <div id="resultado">
             <div class="card">
                 <img id="producto-img" src="" alt="Producto ecológico">
                 <h2 id="producto-nombre"></h2>
                 <p id="producto-beneficio"></p>
                 <blockquote id="producto-frase"></blockquote>
-                <button id="reiniciar">Volver a empezar</button>
+                <button id="btnReinicio">Volver a empezar</button>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>
         <p>Todos los derechos reservados</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <script src="js/script.js"></script>
      <div id="blur-overlay"></div>
 </body>
