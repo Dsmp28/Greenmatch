@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Define la codificación de caracteres para evitar problemas con acentos y caracteres especiales -->
     <meta charset="UTF-8">
+    <!-- Asegura que el diseño sea responsive ajustando la anchura al dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>GreenMatch - Encuentra tu match ecológico</title>
+    <!-- Enlace al archivo de estilos CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <!-- Encabezado principal con título y descripción -->
     <header class="header">
         <div class="main_title">
+            <!-- Nombre de la aplicación o sitio -->
             <h1 class="title">GreenMatch</h1>
         </div>
         <div class="description">
+            <!-- Breve frase explicativa -->
             <p>Descubre el producto ecológico perfecto para ti</p>
         </div>
     </header>
     
     <main>
-        <!-- Formulario -->
+        <!-- Sección del formulario de preguntas -->
         <section id="form-section">
             <form id="quiz-form">
+                <!-- Pregunta 1: ubicación del usuario -->
                 <div class="lugar">
                     <label for="lugar">¿Dónde vives?</label>
                     <select id="lugar" name="lugar" required>
-                    <option value="">Selecciona...</option>
-                    <option value="Ciudad">Ciudad</option>
-                    <option value="Campo">Campo</option>
-                    <option value="Playa">Playa</option>
-                </select>
+                        <!-- Opción por defecto vacía -->
+                        <option value="">Selecciona...</option>
+                        <option value="Ciudad">Ciudad</option>
+                        <option value="Campo">Campo</option>
+                        <option value="Playa">Playa</option>
+                    </select>
                 </div>
 
+                <!-- Pregunta 2: valor diario del usuario -->
                 <div class="valor">
                     <label for="valor">¿Qué valoras más en tu día a día?</label>
                     <select id="valor" name="valor" required>
@@ -41,40 +51,55 @@
                     </select>
                 </div>
                 
+                <!-- Pregunta 3: nivel de compromiso con la sostenibilidad -->
                 <div class="comproniso">
-                    <label for="compromiso">¿Qué tan comprometido/a estás con el consumo sostenible?</label>
-                <select id="compromiso" name="compromiso" required>
-                    <option value="">Selecciona...</option>
-                    <option value="Nunca">Nunca he comprado algo ecológico</option>
-                    <option value="A veces">A veces compro productos ecológicos</option>
-                    <option value="Siempre">Siempre busco opciones verdes</option>
-                </select>
+                    <label for="compromiso">
+                        ¿Qué tan comprometido/a estás con el consumo sostenible?
+                    </label>
+                    <select id="compromiso" name="compromiso" required>
+                        <option value="">Selecciona...</option>
+                        <option value="Nunca">Nunca he comprado algo ecológico</option>
+                        <option value="A veces">A veces compro productos ecológicos</option>
+                        <option value="Siempre">Siempre busco opciones verdes</option>
+                    </select>
                 </div>
 
+                <!-- Botón para enviar y procesar el formulario -->
                 <div class="button">
-                    <button type="submit" id="btnMatch">Descubrir mi match</button>
+                    <button type="submit" id="btnMatch">
+                        Descubrir mi match
+                    </button>
                 </div>
             </form>
         </section>
 
-        <!-- Resultado -->
+        <!-- Contenedor para mostrar el resultado (inicialmente oculto) -->
         <div id="resultado">
             <div class="card">
+                <!-- Imagen del producto sugerido -->
                 <img id="producto-img" src="" alt="Producto ecológico">
+                <!-- Nombre del producto sugerido -->
                 <h2 id="producto-nombre"></h2>
+                <!-- Beneficio clave del producto -->
                 <p id="producto-beneficio"></p>
+                <!-- Frase motivadora asociada al producto -->
                 <blockquote id="producto-frase"></blockquote>
+                <!-- Botón para reiniciar el quiz -->
                 <button id="btnReinicio">Volver a empezar</button>
             </div>
         </div>
     </main>
 
+    <!-- Pie de página con derechos reservados -->
     <footer>
         <p>Todos los derechos reservados</p>
     </footer>
 
+    <!-- Biblioteca PapaParse para parsear CSV -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <!-- Archivo JavaScript principal con la lógica del quiz -->
     <script src="js/script.js"></script>
-     <div id="blur-overlay"></div>
+    <!-- Capa para desenfoque de fondo cuando se muestra el resultado -->
+    <div id="blur-overlay"></div>
 </body>
 </html>
