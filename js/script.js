@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnMatch = document.getElementById("btnMatch");
     const btnReinicio = document.getElementById("btnReinicio");
     const resultado = document.getElementById("resultado");
+    const alerta = document.getElementById("alerta");
 
     // Al iniciar, oculta el área donde se muestran los resultados
     resultado.style.display = "none";
@@ -16,7 +17,16 @@ document.addEventListener("DOMContentLoaded", () => {
         // Lee los valores seleccionados por el usuario en el formulario
         const lugar = document.getElementById("lugar").value;
         const valor = document.getElementById("valor").value;
-        const compromiso = document.getElementById("compromiso").value;
+        const compromiso = document.getElementById( "compromiso").value;
+
+        if (!lugar || !valor || !compromiso) {
+            alerta.style.display = "block";
+            setTimeout(() => {
+                alerta.style.display = "none";
+            }, 1000); // 3 segundos y desaparece
+
+            return;
+        }
 
         // Utiliza PapaParse para leer el CSV de productos de forma remota
         Papa.parse("data/productos.csv", {
